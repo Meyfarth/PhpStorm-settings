@@ -1,0 +1,24 @@
+<templateSet group="PHP">
+  <template name="acc" value="{$END$}" description="Accolades" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSON" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="cro" value="[$END$]" description="Crochets" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSON" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="crov" value="$$$VAR$[$END$]" description="Crochets + var" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="var" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSON" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
