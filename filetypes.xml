@@ -6,6 +6,7 @@
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="phantomjs" type="PLAIN_TEXT" />
+      <mapping ext="rzgre" type="PLAIN_TEXT" />
       <mapping ext="toml" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="xliff" type="PLAIN_TEXT" />
